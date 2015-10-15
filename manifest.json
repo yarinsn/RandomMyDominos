@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "Random My Dominos",
+  "description": "Eat a whole new kind of Dominos Pizza every time!",
+  "version": "0.0.0.1",
+
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+
+  "icons": { 
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/dominos-randomizer.js"]
+    }
+  ],
+
+  "background": {
+  },
+
+  "permissions": [
+    "tabs",
+  ]
+}
