@@ -22,7 +22,9 @@
   "background": {
   },
 
+  "content_security_policy": "script-src 'self' object-src 'self'",
+
   "permissions": [
-    "tabs",
+    "tabs"
   ]
 }
