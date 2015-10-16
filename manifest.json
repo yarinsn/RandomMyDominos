@@ -9,20 +9,21 @@
     "default_popup": "popup.html"
   },
 
-  "icons": { 
+  "icons": {
+    "16": "style/icon16.png",
+    "48": "style/icon48.png",
+    "128": "style/icon128.png"
   },
 
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["js/dominos-randomizer.js"]
+      "matches": ["http://www.dominos.co.il/*", "http://dominos.ynet.co.il/*"],
+      "js": ["js/jquery-1.11.3.min.js", "js/dominos-randomizer.js"]
     }
   ],
 
   "background": {
   },
-
-  "content_security_policy": "script-src 'self' object-src 'self'",
 
   "permissions": [
     "tabs"

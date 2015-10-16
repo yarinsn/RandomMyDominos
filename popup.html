@@ -1,12 +1,21 @@
 <!doctype html>
 <html>
 	<head>
+		<link rel='stylesheet' type='text/css' href='style/popup.css'>
 	</head>
 	<body>
 		<header>
 		</header>
 		<section id='main-section'>
-			<button class="randomize btn">Random</button>
+		<section id='topping-types'>
+			<h1>Topping types:</h1>
+			<input type="checkbox" id="vegetables" checked>Vegetables<br>
+			<input type="checkbox" id="meat" checked>Meat<br>
+			<input type="checkbox" id="dairy" checked>Dairy<br>
+			<input type="checkbox" id="fish" checked>Fish<br>
+		</section>
+			Toppings quantity: <input type="number" id="toppings-quantity" min="1" max="8" value="4">
+			<button class="randomize btn">Random My Dominos!</button>
 		</section>
 		<footer class='extracted-product-actions'>
 		</footer>
