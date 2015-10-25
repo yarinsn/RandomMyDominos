@@ -7,18 +7,36 @@
 		<header>
 		</header>
 		<section id='main-section'>
-		<section id='topping-types'>
-			<h1>Topping types:</h1>
-			<input type="checkbox" id="vegetables" checked>Vegetables<br>
-			<input type="checkbox" id="meat" checked>Meat<br>
-			<input type="checkbox" id="dairy" checked>Dairy<br>
-			<input type="checkbox" id="fish" checked>Fish<br>
+			<section id='top'>
+				<img id='veg' class='active'></img>
+				<img id='dairy' class='active'></img>
+				<img id='fish' class='active'></img>
+				<img id='meat' class='active'></img>
+			</section>
+			<section id='middle'>
+				<img id='one' class='number'></img>
+				<img id='two' class='number'></img>
+				<img id='three' class='number'></img>
+				<img id='four' class='number active'></img>
+				<img id='five' class='number'></img>
+				<img id='six' class='number'></img>
+				<img id='seven' class='number'></img>
+				<img id='eight' class='number'></img>
+			</section>
+			<section id='bottom'>
+				<img id='shuffle'></img>
+			</section>
+			<!--section id='topping-types'>
+				<h1>Topping types:</h1>
+				<input type="checkbox" id="vegetables" checked>Vegetables<br>
+				<input type="checkbox" id="meat" checked>Meat<br>
+				<input type="checkbox" id="dairy" checked>Dairy<br>
+				<input type="checkbox" id="fish" checked>Fish<br>
+			</section>
+				Toppings quantity: <input type="number" id="toppings-quantity" min="1" max="8" value="4">
+				<button class="randomize btn">Random My Dominos!</button-->
 		</section>
-			Toppings quantity: <input type="number" id="toppings-quantity" min="1" max="8" value="4">
-			<button class="randomize btn">Random My Dominos!</button>
-		</section>
-		<footer class='extracted-product-actions'>
-		</footer>
+		<script src='js/jquery-1.11.3.min.js'></script>
 		<script src='js/popup.js'></script>
  	</body>
 </html>

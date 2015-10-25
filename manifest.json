@@ -10,9 +10,9 @@
   },
 
   "icons": {
-    "16": "style/icon16.png",
-    "48": "style/icon48.png",
-    "128": "style/icon128.png"
+    "16": "style/graphics/icons/icon16.png",
+    "48": "style/graphics/icons/icon48.png",
+    "128": "style/graphics/icons/icon128.png"
   },
 
   "content_scripts": [
